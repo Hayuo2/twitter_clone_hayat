@@ -79,18 +79,18 @@ WSGI_APPLICATION = 'django_forumm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         # 'ENGINE': 'django.db.backends.sqlite3',
-#         # 'NAME': BASE_DIR / 'db.sqlite3',
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'd74vj14tlmmslg',
-#         'USER': 'qxldqjubbccilx',
-#         'HOST': 'ec2-107-20-153-39.compute-1.amazonaws.com',
-#         'PORT': 5432,
-#         'PASSWORD': '44ec49d2cb8d9ffb234ec3abaf954f8f24cc5eee65b96a1d522638129c4487cd',
-#     }
-# }
+DATABASES = {
+    'default': {
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd74vj14tlmmslg',
+        'USER': 'qxldqjubbccilx',
+        'HOST': 'ec2-107-20-153-39.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'PASSWORD': '44ec49d2cb8d9ffb234ec3abaf954f8f24cc5eee65b96a1d522638129c4487cd',
+    }
+}
 #django_heroku.settings(locals())
 DATABASES = {
     'default': {
